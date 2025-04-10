@@ -15,7 +15,7 @@ Features:
 ✔ Light and dark themes
 ✔ Copy result with copy icon button (changes to "copied")
 ✔ Bilingual interface: Indonesian / English
-✔ PWA support (can be used offline & installed)
+✔ PWA support (can be used installed)
 ✔ Real-time input validation (displays invalid characters)
 
 Technologies Used:
@@ -31,6 +31,5 @@ Security Notes:
 -------------------
 - All runs on the frontend (client-only)
 - Does not store or transmit user data
-- Safe to share or use offline
 
 contact : galihkar.bisnis@gmail.com
