@@ -1,3 +1,13 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(registrations => {
+    for (let reg of registrations) {
+      reg.unregister().then(() => {
+        console.log('Service worker unregistered');
+      });
+    }
+  });
+}
+
 let currentLang = 'id';
 let recordedChunks = [];
 
