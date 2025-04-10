@@ -1,25 +1,3 @@
-// Bersihkan service worker lama dan cache untuk pengguna lama
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.getRegistrations().then(registrations => {
-    for (let reg of registrations) {
-      reg.unregister().then(() => {
-        console.log('✅ Service worker unregistered');
-      });
-    }
-  });
-
-  // Hapus semua cache
-  if ('caches' in window) {
-    caches.keys().then(names => {
-      names.forEach(name => {
-        caches.delete(name).then(() => {
-          console.log(`🧹 Cache "${name}" deleted`);
-        });
-      });
-    });
-  }
-}
-
 let currentLang = 'id';
 let recordedChunks = [];
 
