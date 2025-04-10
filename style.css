@@ -1,0 +1,55 @@
+    body.dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    .dark-mode .form-control,
+    .dark-mode .morse-output {
+      background-color: #222121;
+      color: #e0e0e0;
+    }
+
+    .morse-output {
+      font-family: Verdana;
+      font-weight: bold;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      position: relative;
+      background-color: #f6f6f6;
+      min-height: 60px;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background: none;
+      border: none;
+      
+      cursor: pointer;
+    }
+
+    .copy-btn:hover {
+      color: #000;
+    }
+
+    body.dark-mode .copy-btn {
+      color: #fff;
+    }
+
+    body.dark-mode .form-text {
+      color: #e0e0e0;
+    }
+
+    body.dark-mode ::placeholder {
+      color: #e0e0e0;
+      opacity: 1;
+    }
+
+    body.dark-mode .btn-outline-white {
+      color: #fff;
+    }
+
+    .container{
+      min-height: 400px;
+    }
