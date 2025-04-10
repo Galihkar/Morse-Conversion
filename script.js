@@ -292,7 +292,8 @@ const translations = {
     morse_instruction: "Separate letters with spaces, words with `/`.",
     play_sound: "Play Morse Sound",
     download: "Download",
-    alert_silent_mode: "Make sure your device is not on mute if you want to play sound."
+    alert_silent_mode: "Make sure your device is not on mute if you want to play sound.",
+    speed: "Speed (ms per unit)"
   },
   id: {
     title: "Konversi Sandi Morse",
@@ -308,6 +309,7 @@ const translations = {
     morse_instruction: "Pisahkan huruf dengan spasi, kata dengan tanda `/`.",
     play_sound: "Mainkan Suara Morse",
     download: "Unduh",
-    alert_silent_mode: "Pastikan perangkat Anda tidak dalam mode senyap jika Anda ingin memutar suara."
+    alert_silent_mode: "Pastikan perangkat Anda tidak dalam mode senyap jika Anda ingin memutar suara.",
+    speed: "Kecepatan (ms per unit)"
   }
 };
