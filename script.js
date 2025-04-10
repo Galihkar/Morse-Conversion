@@ -1,11 +1,10 @@
-// Service Worker Registration
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').then((reg) => {
-      console.log('Service Worker registered:', reg.scope);
-    }).catch((err) => {
-      console.error('Service Worker failed:', err);
-    });
+  navigator.serviceWorker.getRegistrations().then(registrations => {
+    for (let reg of registrations) {
+      reg.unregister().then(() => {
+        console.log('Service worker unregistered');
+      });
+    }
   });
 }
 
