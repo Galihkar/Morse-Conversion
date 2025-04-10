@@ -8,7 +8,7 @@
       });
     }
     
-    let currentLang = 'en';
+    let currentLang = 'id';
     let recordedChunks = [];
 
     const morseCode = {
