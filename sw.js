@@ -1,4 +1,4 @@
-const CACHE_NAME = 'morse-app-v1'; // <-- ganti versi kalau ada update
+const CACHE_NAME = 'morse-app-v2'; // <-- ganti versi kalau ada update
 const FILES_TO_CACHE = [
   './',
   './index.html',
